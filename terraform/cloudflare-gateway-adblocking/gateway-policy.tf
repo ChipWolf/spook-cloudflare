@@ -23,7 +23,7 @@ resource "cloudflare_teams_rule" "block_ads" {
   precedence = 11
 
   # Block domain belonging to lists (defined below)
-  filters = ["dns"]
+  filters = ["dns","http"]
   action  = "block"
   traffic = local.pihole_ad_filter
 
