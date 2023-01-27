@@ -1,3 +1,0 @@
-[submodule "docker-compose/docker-vault"]
-	path = docker-compose/docker-vault
-	url = https://github.com/marco-lancini/docker_vault
