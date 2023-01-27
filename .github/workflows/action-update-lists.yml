@@ -8,6 +8,9 @@ on:
 env: 
   FOLDER: 'terraform/cloudflare-gateway-adblocking/cloudflare/lists'
 
+permissions:
+  pull-requests: write
+
 jobs:
   auto-update:
     runs-on: ubuntu-22.04
